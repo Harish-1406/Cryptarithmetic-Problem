@@ -82,7 +82,8 @@ MONEY = 10652<br>
 <h2>Program:</h2>
 <hr>
 <p>
-
+    
+```py
 from itertools import permutations
 def solve_cryptarithmetic():
     for perm in permutations(range(10), 8):
@@ -111,6 +112,7 @@ if solution:
     print(f'MONEY = {MONEY}')
 else:
     print("No solution found.")
+```
 
 </p>
 <hr>
